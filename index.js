@@ -35,5 +35,11 @@ function exerciseDog (dogName,dogBreed){
   // let value = routine[i](dogName,dogBreed)
  //}
  let a = routine[0](dogName,dogBreed)
+ let b = routine[1](dogName,dogBreed)
+ let c = routine[2](dogName,dogBreed)
+ let d = routine[3](dogName,dogBreed)
+ let e = routine[4](dogName,dogBreed)
+ let f = routine[5](dogName,dogBreed)
+ let value =[a,b,c,d,e,f]
  return value;
 }
