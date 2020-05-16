@@ -28,7 +28,7 @@ function unleashDog(dogName, dogBreed) {
   let string =`Unleash ${dogName} the ${dogBreed}`
   return string;
 }
-
+let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog (dogName,dogBreed){
  let routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 // for(let i=0; i<routine.length; i++){
